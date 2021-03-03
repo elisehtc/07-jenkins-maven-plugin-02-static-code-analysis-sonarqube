@@ -25,9 +25,8 @@ public class GreetingMessage {
      // return message 
      public String printMessage(){
     	String buggyString = message;
-    	buggyString.concat(" SomeSuffix");
     	System.out.println(buggyString);
-        System.out.println(message);
-        return message;
+      System.out.println(message);
+      return message;
      }   
   } 
