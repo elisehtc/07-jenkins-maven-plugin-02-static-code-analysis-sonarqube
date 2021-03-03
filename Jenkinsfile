@@ -15,7 +15,7 @@ pipeline {
 	 
 	  stage('Static Code Analysis'){
              	  steps {
-             	        withSonarQubeEnv('my_sonarqube_in_docker') {
+             	        withSonarQubeEnv('sonarqube-docker') {
                           // Optionally use a Maven environment you've configured already
                            // withMaven(maven:'my-maven-3') {
              	      
